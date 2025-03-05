@@ -1,0 +1,17 @@
+#container{
+    border: 1px solid black;
+    display: flex;
+   /* flex-direction: row;
+    flex-wrap: wrap;*/
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.items {
+
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+}
