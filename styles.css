@@ -3,15 +3,17 @@
     display: flex;
    /* flex-direction: row;
     flex-wrap: wrap;*/
-
+    height: 800px;
     flex-flow: row wrap;
     justify-content: space-between;
+    /*align-items: stretch;*/
+    align-content: s;
 }
 
 .items {
 
     background-color: red;
-    width: 200px;
     height: 150px;
+    width: 200px;
     margin: 5px;
 }
